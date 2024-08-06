@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/mockingproject.dir/test/testDummy.cpp.o CMakeFiles/mockingproject.dir/src/dummy.cpp.o -o mockingproject  lib/libgtest_main.a lib/libgmock_main.a lib/libgmock.a lib/libgtest.a

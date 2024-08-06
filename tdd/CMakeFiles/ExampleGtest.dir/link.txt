@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ExampleGtest.dir/test/example.cpp.o CMakeFiles/ExampleGtest.dir/test/testDummy.cpp.o CMakeFiles/ExampleGtest.dir/src/dummy.cpp.o -o ExampleGtest  lib/libgtest_main.a lib/libgmock_main.a lib/libgmock.a lib/libgtest.a

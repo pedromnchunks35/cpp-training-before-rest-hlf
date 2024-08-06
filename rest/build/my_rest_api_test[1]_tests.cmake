@@ -1,0 +1,5 @@
+add_test([=[teste1.teste]=]  /run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/my_rest_api_test [==[--gtest_filter=teste1.teste]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[teste1.teste]=]  PROPERTIES WORKING_DIRECTORY /run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[test2.test2]=]  /run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/my_rest_api_test [==[--gtest_filter=test2.test2]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[test2.test2]=]  PROPERTIES WORKING_DIRECTORY /run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  my_rest_api_test_TESTS teste1.teste test2.test2)

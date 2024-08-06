@@ -1,0 +1,5 @@
+if(EXISTS "/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/tdd/build/ExampleGtest[1]_tests.cmake")
+  include("/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/tdd/build/ExampleGtest[1]_tests.cmake")
+else()
+  add_test(ExampleGtest_NOT_BUILT ExampleGtest_NOT_BUILT)
+endif()
