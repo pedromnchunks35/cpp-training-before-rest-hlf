@@ -71,6 +71,15 @@
         "thread": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "coroutine": "cpp",
+        "source_location": "cpp",
+        "future": "cpp",
+        "shared_mutex": "cpp",
+        "stdfloat": "cpp",
+        "valarray": "cpp",
+        "complex": "cpp",
+        "typeindex": "cpp",
+        "*.ipp": "cpp"
     }
 }

@@ -64,6 +64,9 @@ CMAKE_BINARY_DIR = /run/media/pedromn35/disk2-home/projects/cpp-training-before-
 
 # The main recursive "all" target.
 all: CMakeFiles/my_rest_api.dir/all
+all: CMakeFiles/httpclient.dir/all
+all: CMakeFiles/syncServer.dir/all
+all: CMakeFiles/asyncServer.dir/all
 all: CMakeFiles/my_rest_api_test.dir/all
 all: _deps/googletest-build/all
 .PHONY : all
@@ -74,6 +77,9 @@ preinstall: _deps/googletest-build/preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/my_rest_api.dir/clean
+clean: CMakeFiles/httpclient.dir/clean
+clean: CMakeFiles/syncServer.dir/clean
+clean: CMakeFiles/asyncServer.dir/clean
 clean: CMakeFiles/my_rest_api_test.dir/clean
 clean: _deps/googletest-build/clean
 .PHONY : clean
@@ -136,7 +142,7 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 CMakeFiles/my_rest_api.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_rest_api.dir/build.make CMakeFiles/my_rest_api.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_rest_api.dir/build.make CMakeFiles/my_rest_api.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles --progress-num=9,10 "Built target my_rest_api"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles --progress-num=13,14 "Built target my_rest_api"
 .PHONY : CMakeFiles/my_rest_api.dir/all
 
 # Build rule for subdir invocation for target.
@@ -156,6 +162,84 @@ CMakeFiles/my_rest_api.dir/clean:
 .PHONY : CMakeFiles/my_rest_api.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/httpclient.dir
+
+# All Build rule for target.
+CMakeFiles/httpclient.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/httpclient.dir/build.make CMakeFiles/httpclient.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/httpclient.dir/build.make CMakeFiles/httpclient.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles --progress-num=11,12 "Built target httpclient"
+.PHONY : CMakeFiles/httpclient.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/httpclient.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/httpclient.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles 0
+.PHONY : CMakeFiles/httpclient.dir/rule
+
+# Convenience name for target.
+httpclient: CMakeFiles/httpclient.dir/rule
+.PHONY : httpclient
+
+# clean rule for target.
+CMakeFiles/httpclient.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/httpclient.dir/build.make CMakeFiles/httpclient.dir/clean
+.PHONY : CMakeFiles/httpclient.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/syncServer.dir
+
+# All Build rule for target.
+CMakeFiles/syncServer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/syncServer.dir/build.make CMakeFiles/syncServer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/syncServer.dir/build.make CMakeFiles/syncServer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles --progress-num=18,19 "Built target syncServer"
+.PHONY : CMakeFiles/syncServer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/syncServer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/syncServer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles 0
+.PHONY : CMakeFiles/syncServer.dir/rule
+
+# Convenience name for target.
+syncServer: CMakeFiles/syncServer.dir/rule
+.PHONY : syncServer
+
+# clean rule for target.
+CMakeFiles/syncServer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/syncServer.dir/build.make CMakeFiles/syncServer.dir/clean
+.PHONY : CMakeFiles/syncServer.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/asyncServer.dir
+
+# All Build rule for target.
+CMakeFiles/asyncServer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asyncServer.dir/build.make CMakeFiles/asyncServer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asyncServer.dir/build.make CMakeFiles/asyncServer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles --progress-num=1,2 "Built target asyncServer"
+.PHONY : CMakeFiles/asyncServer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/asyncServer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/asyncServer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles 0
+.PHONY : CMakeFiles/asyncServer.dir/rule
+
+# Convenience name for target.
+asyncServer: CMakeFiles/asyncServer.dir/rule
+.PHONY : asyncServer
+
+# clean rule for target.
+CMakeFiles/asyncServer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asyncServer.dir/build.make CMakeFiles/asyncServer.dir/clean
+.PHONY : CMakeFiles/asyncServer.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/my_rest_api_test.dir
 
 # All Build rule for target.
@@ -165,7 +249,7 @@ CMakeFiles/my_rest_api_test.dir/all: _deps/googletest-build/googletest/CMakeFile
 CMakeFiles/my_rest_api_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_rest_api_test.dir/build.make CMakeFiles/my_rest_api_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_rest_api_test.dir/build.make CMakeFiles/my_rest_api_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles --progress-num=11,12,13 "Built target my_rest_api_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles --progress-num=15,16,17 "Built target my_rest_api_test"
 .PHONY : CMakeFiles/my_rest_api_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -191,7 +275,7 @@ CMakeFiles/my_rest_api_test.dir/clean:
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles --progress-num=1,2 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles --progress-num=3,4 "Built target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -218,7 +302,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletes
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles --progress-num=3,4 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles --progress-num=5,6 "Built target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -244,7 +328,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles --progress-num=5,6 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles --progress-num=7,8 "Built target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -270,7 +354,7 @@ _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles --progress-num=7,8 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles --progress-num=9,10 "Built target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.

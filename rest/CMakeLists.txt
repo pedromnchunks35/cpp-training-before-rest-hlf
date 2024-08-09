@@ -46,6 +46,9 @@ SOURCES
 # EXECUTABLES
 ## SRC
 add_executable(my_rest_api ${SOURCES})
+add_executable(httpclient ./src/examples/httpclient.cpp)
+add_executable(syncServer ./src/examples/syncServer.cpp)
+add_executable(asyncServer ./src/examples/asyncServer.cpp)
 ## TEST
 add_executable(my_rest_api_test ${SOURCES_TEST})
 

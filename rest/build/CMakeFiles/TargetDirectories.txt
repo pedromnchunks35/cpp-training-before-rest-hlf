@@ -1,4 +1,7 @@
 /run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles/my_rest_api.dir
+/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles/httpclient.dir
+/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles/syncServer.dir
+/run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles/asyncServer.dir
 /run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles/my_rest_api_test.dir
 /run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles/edit_cache.dir
 /run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/build/CMakeFiles/rebuild_cache.dir

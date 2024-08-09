@@ -12,3 +12,25 @@
 - In the google test it was detecting it because the folder was on our workspace so it could use it there
 - Thats why i putted `/home/pedromn35/cpp-libraries/boost_1_85_0/*` in our include so it could detect it without problems
 - Intellisense uses this headers files which are interfaces to know which methods it can invoke to make the autocomplete
+# Notes about the video
+- IO Operations are costly
+- We should try to write the headers and the payload in one go
+- There are const buffers and mutable buffers
+- Asynchronous I/O waits for a response
+  - Takes a buffer and a handler 
+  - Handler is what will handle the call
+- We control the threads on this model
+  - We can make single thread
+  - Multi thread with single io_context
+  - Multi thread with a io_context per thread
+- `Chat Server`
+  - Divided into 5 sections
+    - main (creates and runs the server)
+    - shared_state class (where is the server data)
+      - Saves the state of sessions and docs
+      - To manage clients we check the connections here
+    - listener (accepts incoming connections)
+      - has a "on_accept"
+        - It sums the connection to the shared state and keep the connection alive 
+    - http_session (handles HTTP requests on a connection)
+    - websocket_session (maintains an active websocket session)

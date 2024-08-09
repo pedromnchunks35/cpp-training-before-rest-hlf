@@ -1,79 +1,124 @@
-// main.cpp
-#include <boost/asio.hpp>
+#include <boost/beast/core.hpp>
+#include <boost/beast/http.hpp>
+#include <boost/asio/ip/tcp.hpp>
+#include <boost/asio/strand.hpp>
+#include <boost/asio/signal_set.hpp>
 #include <iostream>
+#include <memory>
+#include <string>
+#include <cstdlib>
 
-using boost::asio::ip::tcp;
+namespace beast = boost::beast;
+namespace http = boost::beast::http;
+namespace net = boost::asio;
+using tcp = boost::asio::ip::tcp;
 
-int main() {
-    try {
-        // Create an I/O context
-        boost::asio::io_context io_context;
+// Handles an HTTP request
+class http_session : public std::enable_shared_from_this<http_session>
+{
+public:
+    http_session(tcp::socket socket) : socket_(std::move(socket)) {}
 
-        // Create a resolver to turn a query into a list of endpoints
-        tcp::resolver resolver(io_context);
-        tcp::resolver::results_type endpoints = resolver.resolve("example.com", "80");
-
-        // Create and connect the socket
-        tcp::socket socket(io_context);
-        boost::asio::connect(socket, endpoints);
-
-        // Form the request
-        std::string request = "GET / HTTP/1.1\r\nHost: example.com\r\n\r\n";
-        
-        // Send the request
-        boost::asio::write(socket, boost::asio::buffer(request));
-
-        // Read the response
-        boost::asio::streambuf response;
-        boost::asio::read_until(socket, response, "\r\n");
-
-        // Print the response
-        std::istream response_stream(&response);
-        std::string http_version;
-        response_stream >> http_version;
-        unsigned int status_code;
-        response_stream >> status_code;
-        std::string status_message;
-        std::getline(response_stream, status_message);
-
-        if (!response_stream || http_version.substr(0, 5) != "HTTP/") {
-            std::cout << "Invalid response\n";
-            return 1;
-        }
-
-        if (status_code != 200) {
-            std::cout << "Response returned with status code " << status_code << "\n";
-            return 1;
-        }
-
-        std::cout << "Response returned with status code " << status_code << "\n";
-
-        // Read the response headers, which are terminated by a blank line
-        boost::asio::read_until(socket, response, "\r\n\r\n");
-
-        // Print the response headers
-        std::string header;
-        while (std::getline(response_stream, header) && header != "\r") {
-            std::cout << header << "\n";
-        }
-        std::cout << "\n";
-
-        // Write whatever content we already have to output
-        if (response.size() > 0)
-            std::cout << &response;
-
-        // Read until EOF, writing data to output as we go
-        boost::system::error_code error;
-        while (boost::asio::read(socket, response, boost::asio::transfer_at_least(1), error)) {
-            std::cout << &response;
-        }
-
-        if (error != boost::asio::error::eof)
-            throw boost::system::system_error(error);
-    }
-    catch (std::exception& e) {
-        std::cerr << "Exception: " << e.what() << "\n";
+    void start()
+    {
+        do_read();
     }
 
-    return 0;
+private:
+    void do_read()
+    {
+        auto self = shared_from_this();
+        http::async_read(socket_, buffer_, request_,
+                         [self](beast::error_code ec, std::size_t)
+                         {
+                             if (!ec)
+                             {
+                                 self->handle_request();
+                             }
+                         });
+    }
+
+    void handle_request()
+    {
+        auto self = shared_from_this();
+        http::response<http::string_body> res{http::status::ok, request_.version()};
+        res.set(http::field::server, "Boost.Beast");
+        res.set(http::field::content_type, "text/plain");
+        res.keep_alive(request_.keep_alive());
+        res.body() = "Hello, world!";
+        res.prepare_payload();
+        http::async_write(socket_, res,
+                          [self](beast::error_code ec, std::size_t)
+                          {
+                              if (!ec)
+                              {
+                                  self->socket_.shutdown(tcp::socket::shutdown_send, ec);
+                              }
+                          });
+    }
+
+    tcp::socket socket_;
+    beast::flat_buffer buffer_;
+    http::request<http::string_body> request_;
+};
+
+// Accepts incoming connections
+class listener : public std::enable_shared_from_this<listener>
+{
+public:
+    listener(net::io_context &ioc, tcp::acceptor &acceptor) : ioc_(ioc), acceptor_(acceptor) {}
+
+    void start()
+    {
+        do_accept();
+    }
+
+private:
+    void do_accept()
+    {
+        acceptor_.async_accept(
+            [self = shared_from_this()](beast::error_code ec, tcp::socket socket)
+            {
+                if (!ec)
+                {
+                    std::make_shared<http_session>(std::move(socket))->start();
+                }
+                self->do_accept();
+            });
+    }
+
+    net::io_context &ioc_;
+    tcp::acceptor &acceptor_;
+};
+
+// The main function
+int main(int argc, char *argv[])
+{
+    try
+    {
+        if (argc != 2)
+        {
+            std::cerr << "Usage: " << argv[0] << " <port>\n";
+            return EXIT_FAILURE;
+        }
+        auto const address = net::ip::make_address("0.0.0.0");
+        auto const port = static_cast<unsigned short>(std::stoi(argv[1]));
+
+        net::io_context ioc{1};
+
+        tcp::acceptor acceptor{ioc, {address, port}};
+        std::make_shared<listener>(ioc, acceptor)->start();
+
+        std::vector<std::shared_ptr<net::signal_set>> signals;
+        signals.emplace_back(std::make_shared<net::signal_set>(ioc, SIGINT, SIGTERM));
+        signals[0]->async_wait([&](beast::error_code const &, int)
+                               { ioc.stop(); });
+
+        ioc.run();
+    }
+    catch (const std::exception &e)
+    {
+        std::cerr << "Error: " << e.what() << "\n";
+        return EXIT_FAILURE;
+    }
 }

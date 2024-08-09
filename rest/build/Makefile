@@ -175,6 +175,45 @@ my_rest_api/fast:
 .PHONY : my_rest_api/fast
 
 #=============================================================================
+# Target rules for targets named httpclient
+
+# Build rule for target.
+httpclient: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 httpclient
+.PHONY : httpclient
+
+# fast build rule for target.
+httpclient/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/httpclient.dir/build.make CMakeFiles/httpclient.dir/build
+.PHONY : httpclient/fast
+
+#=============================================================================
+# Target rules for targets named syncServer
+
+# Build rule for target.
+syncServer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 syncServer
+.PHONY : syncServer
+
+# fast build rule for target.
+syncServer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/syncServer.dir/build.make CMakeFiles/syncServer.dir/build
+.PHONY : syncServer/fast
+
+#=============================================================================
+# Target rules for targets named asyncServer
+
+# Build rule for target.
+asyncServer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asyncServer
+.PHONY : asyncServer
+
+# fast build rule for target.
+asyncServer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asyncServer.dir/build.make CMakeFiles/asyncServer.dir/build
+.PHONY : asyncServer/fast
+
+#=============================================================================
 # Target rules for targets named my_rest_api_test
 
 # Build rule for target.
@@ -238,6 +277,78 @@ gtest_main: cmake_check_build_system
 gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
+
+src/examples/asyncServer.o: src/examples/asyncServer.cpp.o
+.PHONY : src/examples/asyncServer.o
+
+# target to build an object file
+src/examples/asyncServer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asyncServer.dir/build.make CMakeFiles/asyncServer.dir/src/examples/asyncServer.cpp.o
+.PHONY : src/examples/asyncServer.cpp.o
+
+src/examples/asyncServer.i: src/examples/asyncServer.cpp.i
+.PHONY : src/examples/asyncServer.i
+
+# target to preprocess a source file
+src/examples/asyncServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asyncServer.dir/build.make CMakeFiles/asyncServer.dir/src/examples/asyncServer.cpp.i
+.PHONY : src/examples/asyncServer.cpp.i
+
+src/examples/asyncServer.s: src/examples/asyncServer.cpp.s
+.PHONY : src/examples/asyncServer.s
+
+# target to generate assembly for a file
+src/examples/asyncServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asyncServer.dir/build.make CMakeFiles/asyncServer.dir/src/examples/asyncServer.cpp.s
+.PHONY : src/examples/asyncServer.cpp.s
+
+src/examples/httpclient.o: src/examples/httpclient.cpp.o
+.PHONY : src/examples/httpclient.o
+
+# target to build an object file
+src/examples/httpclient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/httpclient.dir/build.make CMakeFiles/httpclient.dir/src/examples/httpclient.cpp.o
+.PHONY : src/examples/httpclient.cpp.o
+
+src/examples/httpclient.i: src/examples/httpclient.cpp.i
+.PHONY : src/examples/httpclient.i
+
+# target to preprocess a source file
+src/examples/httpclient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/httpclient.dir/build.make CMakeFiles/httpclient.dir/src/examples/httpclient.cpp.i
+.PHONY : src/examples/httpclient.cpp.i
+
+src/examples/httpclient.s: src/examples/httpclient.cpp.s
+.PHONY : src/examples/httpclient.s
+
+# target to generate assembly for a file
+src/examples/httpclient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/httpclient.dir/build.make CMakeFiles/httpclient.dir/src/examples/httpclient.cpp.s
+.PHONY : src/examples/httpclient.cpp.s
+
+src/examples/syncServer.o: src/examples/syncServer.cpp.o
+.PHONY : src/examples/syncServer.o
+
+# target to build an object file
+src/examples/syncServer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/syncServer.dir/build.make CMakeFiles/syncServer.dir/src/examples/syncServer.cpp.o
+.PHONY : src/examples/syncServer.cpp.o
+
+src/examples/syncServer.i: src/examples/syncServer.cpp.i
+.PHONY : src/examples/syncServer.i
+
+# target to preprocess a source file
+src/examples/syncServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/syncServer.dir/build.make CMakeFiles/syncServer.dir/src/examples/syncServer.cpp.i
+.PHONY : src/examples/syncServer.cpp.i
+
+src/examples/syncServer.s: src/examples/syncServer.cpp.s
+.PHONY : src/examples/syncServer.s
+
+# target to generate assembly for a file
+src/examples/syncServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/syncServer.dir/build.make CMakeFiles/syncServer.dir/src/examples/syncServer.cpp.s
+.PHONY : src/examples/syncServer.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -323,12 +434,24 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... asyncServer"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... httpclient"
 	@echo "... my_rest_api"
 	@echo "... my_rest_api_test"
+	@echo "... syncServer"
+	@echo "... src/examples/asyncServer.o"
+	@echo "... src/examples/asyncServer.i"
+	@echo "... src/examples/asyncServer.s"
+	@echo "... src/examples/httpclient.o"
+	@echo "... src/examples/httpclient.i"
+	@echo "... src/examples/httpclient.s"
+	@echo "... src/examples/syncServer.o"
+	@echo "... src/examples/syncServer.i"
+	@echo "... src/examples/syncServer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

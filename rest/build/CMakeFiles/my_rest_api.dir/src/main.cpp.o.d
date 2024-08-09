@@ -1,9 +1,8 @@
 CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /run/media/pedromn35/disk2-home/projects/cpp-training-before-rest-hlf/rest/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/any_completion_executor.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/config.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/config.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/config.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/config/user.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/config/detail/select_compiler_config.hpp \
@@ -53,45 +52,22 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/config/helper_macros.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/config/detail/cxx_composite.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/version.hpp \
- /usr/include/linux/version.h \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/execution.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/execution/allocator.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/type_traits.hpp \
- /usr/include/c++/14.2.1/type_traits \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/execution/executor.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/execution/invocable_archetype.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/push_options.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/pop_options.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/traits/equality_comparable.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/traits/execute_member.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/is_applicable_property.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/traits/query_static_constexpr_member.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/traits/static_query.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/execution/any_executor.hpp \
- /usr/include/c++/14.2.1/new /usr/include/c++/14.2.1/bits/exception.h \
- /usr/include/c++/14.2.1/typeinfo \
- /usr/include/c++/14.2.1/bits/hash_bytes.h \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/assert.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/assert.hpp \
- /usr/include/assert.h \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/atomic_count.hpp \
- /usr/include/c++/14.2.1/atomic \
- /usr/include/c++/14.2.1/bits/atomic_base.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/wchar.h \
- /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
- /usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h \
- /usr/include/c++/14.2.1/bits/move.h \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/cstddef.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/executor_function.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/handler_alloc_helpers.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/memory.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/ignore_unused.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/static_assert.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/detail/workaround.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/config/workaround.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/preprocessor/cat.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/preprocessor/config/config.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/async_base.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/allocator.hpp \
  /usr/include/c++/14.2.1/memory /usr/include/c++/14.2.1/bits/memoryfwd.h \
  /usr/include/c++/14.2.1/bits/allocator.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
- /usr/include/c++/14.2.1/bits/new_allocator.h \
+ /usr/include/c++/14.2.1/bits/new_allocator.h /usr/include/c++/14.2.1/new \
+ /usr/include/c++/14.2.1/bits/exception.h \
  /usr/include/c++/14.2.1/bits/functexcept.h \
  /usr/include/c++/14.2.1/bits/exception_defines.h \
+ /usr/include/c++/14.2.1/bits/move.h /usr/include/c++/14.2.1/type_traits \
  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
  /usr/include/c++/14.2.1/bits/stl_construct.h \
  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
@@ -114,12 +90,16 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /usr/include/c++/14.2.1/bits/alloc_traits.h \
  /usr/include/c++/14.2.1/bits/stl_raw_storage_iter.h \
  /usr/include/c++/14.2.1/bits/align.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
  /usr/include/c++/14.2.1/bits/uses_allocator.h \
  /usr/include/c++/14.2.1/bits/unique_ptr.h /usr/include/c++/14.2.1/tuple \
  /usr/include/c++/14.2.1/bits/invoke.h \
  /usr/include/c++/14.2.1/bits/stl_function.h \
  /usr/include/c++/14.2.1/backward/binders.h \
  /usr/include/c++/14.2.1/bits/functional_hash.h \
+ /usr/include/c++/14.2.1/bits/hash_bytes.h \
  /usr/include/c++/14.2.1/bits/shared_ptr.h /usr/include/c++/14.2.1/iosfwd \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/bits/stringfwd.h \
@@ -130,6 +110,7 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h \
  /usr/include/c++/14.2.1/bits/shared_ptr_base.h \
+ /usr/include/c++/14.2.1/typeinfo \
  /usr/include/c++/14.2.1/bits/allocated_ptr.h \
  /usr/include/c++/14.2.1/bits/refwrap.h \
  /usr/include/c++/14.2.1/ext/aligned_buffer.h \
@@ -151,7 +132,40 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
  /usr/include/c++/14.2.1/bits/nested_exception.h \
  /usr/include/c++/14.2.1/bits/shared_ptr_atomic.h \
+ /usr/include/c++/14.2.1/bits/atomic_base.h \
+ /usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h \
  /usr/include/c++/14.2.1/backward/auto_ptr.h \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/async_base.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/exchange.hpp \
+ /usr/include/c++/14.2.1/utility \
+ /usr/include/c++/14.2.1/bits/stl_relops.h \
+ /usr/include/c++/14.2.1/initializer_list \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/filtering_cancellation_slot.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/cancellation_signal.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/config.hpp \
+ /usr/include/linux/version.h /usr/include/c++/14.2.1/cassert \
+ /usr/include/assert.h \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/cancellation_type.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/push_options.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/pop_options.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/cstddef.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/type_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/cancellation_signal.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/thread_context.hpp \
+ /usr/include/c++/14.2.1/climits \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/limits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/uio_lim.h \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/call_stack.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/noncopyable.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/tss_ptr.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/keyword_tss_ptr.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/thread_context.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/thread_info_base.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/memory.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/cstdint.hpp \
  /usr/include/c++/14.2.1/cstdint \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/throw_exception.hpp \
@@ -168,7 +182,6 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /usr/include/ctype.h /usr/include/c++/14.2.1/bits/ostream_insert.h \
  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
  /usr/include/c++/14.2.1/bits/range_access.h \
- /usr/include/c++/14.2.1/initializer_list \
  /usr/include/c++/14.2.1/bits/basic_string.h \
  /usr/include/c++/14.2.1/ext/string_conversions.h \
  /usr/include/c++/14.2.1/cstdio /usr/include/stdio.h \
@@ -184,35 +197,40 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /usr/include/c++/14.2.1/bits/basic_string.tcc \
  /usr/include/c++/14.2.1/cstring /usr/include/string.h \
  /usr/include/strings.h \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/config/workaround.hpp \
- /usr/include/c++/14.2.1/utility \
- /usr/include/c++/14.2.1/bits/stl_relops.h \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/align/aligned_alloc.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/align/detail/aligned_alloc_posix.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/align/detail/is_alignment.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/assert.hpp \
  /usr/include/c++/14.2.1/stdlib.h \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/noncopyable.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/recycling_allocator.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/thread_context.hpp \
- /usr/include/c++/14.2.1/climits \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/limits.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/syslimits.h \
- /usr/include/limits.h /usr/include/bits/posix1_lim.h \
- /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
- /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/uio_lim.h \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/call_stack.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/tss_ptr.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/keyword_tss_ptr.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/thread_context.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/thread_info_base.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/multiple_exceptions.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/multiple_exceptions.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/associated_allocator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/work_guard.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/executor_work_guard.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/associated_executor.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/associator.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/functional.hpp \
  /usr/include/c++/14.2.1/functional \
  /usr/include/c++/14.2.1/bits/std_function.h \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/execution/executor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/execution/invocable_archetype.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/traits/equality_comparable.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/traits/execute_member.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/is_executor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/is_executor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/system_executor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/execution.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/execution/allocator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/is_applicable_property.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/traits/query_static_constexpr_member.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/traits/static_query.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/execution/any_executor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/assert.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/atomic_count.hpp \
+ /usr/include/c++/14.2.1/atomic \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/executor_function.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/handler_alloc_helpers.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/recycling_allocator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/associated_allocator.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/non_const_lvalue.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/scoped_ptr.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/execution/bad_executor.hpp \
@@ -290,7 +308,6 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/system/detail/throws.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/throw_error.ipp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/system/system_error.hpp \
- /usr/include/c++/14.2.1/cassert \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/error.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/cerrno.hpp \
  /usr/include/netdb.h /usr/include/netinet/in.h /usr/include/sys/socket.h \
@@ -317,29 +334,6 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/execution/outstanding_work.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/execution/prefer_only.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/execution/relationship.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/any_completion_executor.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/any_completion_handler.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/any_io_executor.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/execution_context.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/execution_context.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/handler_type_requirements.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/async_result.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/service_registry.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/service_registry.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/service_registry.ipp \
- /usr/include/c++/14.2.1/vector /usr/include/c++/14.2.1/bits/stl_vector.h \
- /usr/include/c++/14.2.1/bits/stl_bvector.h \
- /usr/include/c++/14.2.1/bits/vector.tcc \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/execution_context.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/any_io_executor.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/associated_cancellation_slot.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/cancellation_signal.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/cancellation_type.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/cancellation_signal.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/associated_executor.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/is_executor.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/is_executor.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/system_executor.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/system_executor.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/executor_op.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/fenced_block.hpp \
@@ -352,6 +346,17 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/posix_global.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/system_context.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/scheduler.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/execution_context.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/execution_context.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/handler_type_requirements.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/async_result.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/service_registry.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/service_registry.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/service_registry.ipp \
+ /usr/include/c++/14.2.1/vector /usr/include/c++/14.2.1/bits/stl_vector.h \
+ /usr/include/c++/14.2.1/bits/stl_bvector.h \
+ /usr/include/c++/14.2.1/bits/vector.tcc \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/execution_context.ipp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/conditionally_enabled_event.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/conditionally_enabled_mutex.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/null_event.hpp \
@@ -417,69 +422,124 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/thread_group.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/system_context.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/system_context.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/optional.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/optional/optional.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/addressof.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/enable_if.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/explicit_operator_bool.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/invoke_swap.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/optional/bad_optional_access.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/alignment_of.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/intrinsics.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/detail/config.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/integral_constant.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/conditional.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/conjunction.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/disjunction.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_nothrow_constructor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_default_constructible.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_complete.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/declval.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/add_rvalue_reference.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_void.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_reference.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_lvalue_reference.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_rvalue_reference.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/remove_reference.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_function.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/detail/is_function_cxx_11.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/detail/yes_no_type.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/type_with_alignment.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_pod.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_scalar.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_arithmetic.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_integral.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_floating_point.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_enum.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_pointer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_member_pointer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_member_function_pointer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/remove_const.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/decay.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_array.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/remove_bounds.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/remove_extent.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/add_pointer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/remove_cv.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_assignable.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_base_of.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_base_and_derived.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_same.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_class.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_const.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_constructible.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_destructible.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_convertible.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_abstract.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/add_lvalue_reference.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/add_reference.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_nothrow_move_assignable.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_trivial_move_assign.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_volatile.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_nothrow_assign.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/enable_if.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_nothrow_move_constructible.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/utility.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/detail/config_begin.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/detail/workaround.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/utility_core.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/core.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/detail/config_end.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/detail/meta_utils.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/detail/meta_utils_core.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/detail/addressof.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/detail/type_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/none.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/none_t.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/config/pragma_message.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/utility/compare_pointees.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/utility/result_of.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/type_identity.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/utility/detail/result_of_variadic.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/optional/optional_fwd.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/optional/detail/optional_config.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/optional/detail/optional_factory_support.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/optional/detail/optional_aligned_storage.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/optional/detail/optional_hash.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/optional/detail/optional_trivially_copyable_base.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/optional/detail/optional_reference_spec.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/optional/detail/optional_relops.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/optional/detail/optional_swap.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/associated_cancellation_slot.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/associated_immediate_executor.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/cancellation_state.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/recycling_allocator.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/append.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/append.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/handler_cont_helpers.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/bind_executor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/uses_executor.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/handler_continuation_hook.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/utility.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/as_tuple.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/as_tuple.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/awaitable.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_datagram_socket.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_socket.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/io_object_impl.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/io_context.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/chrono.hpp \
- /usr/include/c++/14.2.1/chrono \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/wrapped_handler.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/bind_handler.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/io_context.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/completion_handler.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/handler_work.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/dispatch.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/initiate_dispatch.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/work_dispatcher.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/executor_work_guard.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/io_context.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/bind_handler.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/handler_cont_helpers.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/post.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/initiate_post.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/socket_base.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/io_control.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/socket_option.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_service.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/buffer.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/array_fwd.hpp \
- /usr/include/c++/14.2.1/array /usr/include/c++/14.2.1/compare \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/string_view.hpp \
- /usr/include/c++/14.2.1/experimental/string_view \
- /usr/include/c++/14.2.1/bits/ranges_base.h \
- /usr/include/c++/14.2.1/experimental/bits/lfts_config.h \
- /usr/include/c++/14.2.1/experimental/bits/string_view.tcc \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/is_contiguous_iterator.hpp \
- /usr/include/c++/14.2.1/iterator \
- /usr/include/c++/14.2.1/bits/stream_iterator.h \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/is_buffer_sequence.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/buffer_sequence_adapter.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/registered_buffer.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/buffer_sequence_adapter.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_null_buffers_op.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_accept_op.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/socket_holder.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/prepend.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/prepend.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/utility.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/empty_value.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/async_base.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/basic_stream.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/stream_base.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/steady_timer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_waitable_timer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/any_io_executor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/any_io_executor.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/chrono_time_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/deadline_timer_service.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/socket_ops.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/socket_ops.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_connect_op.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_recvfrom_op.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_sendto_op.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_service_base.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_recv_op.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_recvmsg_op.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_send_op.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_wait_op.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/reactive_socket_service_base.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_deadline_timer.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/deadline_timer_service.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/timer_queue.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/date_time_fwd.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/timer_queue_ptime.hpp \
@@ -488,13 +548,11 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/time_clock.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/c_time.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/compiler_config.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/detail/workaround.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/locale_config.hpp \
  /usr/include/sys/time.h \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/shared_ptr.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/shared_ptr.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/detail/requires_cxx11.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/config/pragma_message.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/detail/shared_count.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/bad_weak_ptr.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/detail/sp_counted_base.hpp \
@@ -505,7 +563,6 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/detail/sp_counted_impl.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/detail/sp_noexcept.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/checked_delete.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/addressof.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/detail/sp_convertible.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/detail/sp_nullptr_t.hpp \
@@ -539,13 +596,11 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
  /usr/include/bits/iscanonical.h \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/time_duration.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/enable_if.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/special_defs.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/time_defs.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/operators.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/static_assert.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_integral.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/integral_constant.hpp \
+ /usr/include/c++/14.2.1/iterator \
+ /usr/include/c++/14.2.1/bits/stream_iterator.h \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/time_resolution_traits.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/int_adapter.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/gregorian/gregorian_types.hpp \
@@ -555,14 +610,6 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/gregorian/greg_calendar.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/gregorian/greg_weekday.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/constrained_value.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/conditional.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_base_of.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_base_and_derived.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/intrinsics.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/detail/config.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/remove_cv.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_same.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_class.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/date_defs.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/gregorian/greg_day_of_year.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/gregorian_calendar.hpp \
@@ -590,12 +637,9 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/posix_time/date_duration_operators.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/date_time/posix_time/posix_time_duration.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/numeric/conversion/cast.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/numeric/conversion/converter.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/numeric/conversion/conversion_traits.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/numeric/conversion/detail/conversion_traits.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_arithmetic.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_floating_point.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/numeric/conversion/detail/meta.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mpl/if.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mpl/aux_/value_wknd.hpp \
@@ -625,8 +669,6 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mpl/aux_/nttp_decl.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mpl/aux_/config/nttp.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mpl/aux_/integral_wrapper.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/preprocessor/cat.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/preprocessor/config/config.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mpl/aux_/lambda_arity_param.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mpl/aux_/template_arity_fwd.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mpl/aux_/arity.hpp \
@@ -772,112 +814,373 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/timer_scheduler.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/timer_scheduler_fwd.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/wait_handler.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_file.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_io_object.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_random_access_file.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_raw_socket.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_readable_pipe.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_descriptor_service.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/descriptor_ops.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/descriptor_ops.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/descriptor_read_op.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/dispatch.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/descriptor_write_op.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/posix/descriptor_base.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/reactive_descriptor_service.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_seq_packet_socket.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_serial_port.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/serial_port_base.hpp \
- /usr/include/termios.h /usr/include/bits/termios.h \
- /usr/include/bits/termios-struct.h /usr/include/bits/termios-c_cc.h \
- /usr/include/bits/termios-c_iflag.h /usr/include/bits/termios-c_oflag.h \
- /usr/include/bits/termios-baud.h /usr/include/bits/termios-c_cflag.h \
- /usr/include/bits/termios-c_lflag.h /usr/include/bits/termios-tcflow.h \
- /usr/include/bits/termios-misc.h \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/serial_port_base.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/serial_port_base.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/posix_serial_port_service.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/posix_serial_port_service.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_signal_set.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/signal_set_service.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/signal_set_base.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/signal_handler.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/signal_op.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/signal_set_service.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/static_mutex.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/posix_static_mutex.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_socket_acceptor.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_socket_iostream.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_socket_streambuf.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_stream_socket.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/steady_timer.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_waitable_timer.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/chrono_time_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/handler_work.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/io_object_impl.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/io_context.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/chrono.hpp \
+ /usr/include/c++/14.2.1/chrono \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/wrapped_handler.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/io_context.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/completion_handler.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/io_context.ipp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/wait_traits.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_stream_file.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_streambuf.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_streambuf_fwd.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_writable_pipe.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/bind_allocator.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/bind_cancellation_slot.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/bind_executor.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/uses_executor.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/bind_immediate_executor.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/buffer_registration.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/buffered_read_stream_fwd.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/buffered_read_stream.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/buffer_resize_guard.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/buffered_stream_storage.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/buffered_read_stream.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/buffered_stream_fwd.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/buffered_stream.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/buffered_write_stream.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/buffered_write_stream_fwd.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/completion_condition.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/write.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/write.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/base_from_cancellation_state.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/base_from_completion_cond.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/consuming_buffers.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/dependent_type.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/buffered_write_stream.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/buffers_iterator.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/co_spawn.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/compose.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/composed_work.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/error.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/error.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/error.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/rate_policy.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/role.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/stream_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/static_const.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/stream_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/buffer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/array_fwd.hpp \
+ /usr/include/c++/14.2.1/array /usr/include/c++/14.2.1/compare \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/string_view.hpp \
+ /usr/include/c++/14.2.1/experimental/string_view \
+ /usr/include/c++/14.2.1/bits/ranges_base.h \
+ /usr/include/c++/14.2.1/experimental/bits/lfts_config.h \
+ /usr/include/c++/14.2.1/experimental/bits/string_view.tcc \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/is_contiguous_iterator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/is_buffer_sequence.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/make_void.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_socket.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/socket_base.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/io_control.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/socket_option.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_service.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/buffer_sequence_adapter.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/registered_buffer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/buffer_sequence_adapter.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_null_buffers_op.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_accept_op.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/socket_holder.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_connect_op.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_recvfrom_op.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_sendto_op.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_service_base.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_recv_op.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_recvmsg_op.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_socket_send_op.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/reactive_wait_op.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/reactive_socket_service_base.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_stream_socket.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/connect.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/connect.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/connect_pipe.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/connect_pipe.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/connect_pipe.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/consign.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/consign.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/coroutine.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/deadline_timer.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/defer.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/initiate_defer.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/deferred.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/deferred.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detached.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/detached.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/base_from_cancellation_state.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/cancellation_state.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/executor.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/executor.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/executor.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/file_base.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/generic/basic_endpoint.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/generic/detail/endpoint.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/generic/detail/impl/endpoint.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/generic/datagram_protocol.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/generic/raw_protocol.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/generic/seq_packet_protocol.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/generic/stream_protocol.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/high_resolution_timer.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/io_context_strand.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/strand_service.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/strand_service.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/strand_service.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/io_service.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/io_service_strand.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/enable_shared_from_this.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/enable_shared_from_this.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/weak_ptr.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/basic_stream.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/buffer_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/buffer_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/function.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/integral.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/version.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_value.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/config.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/utility.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_list.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_fold.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_defer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_rename.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_front.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_count.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_plus.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_min_element.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/list.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_list_v.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_is_list.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_is_value_list.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_append.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_void.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/buffers_prefix.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/buffers_prefix.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/websocket/teardown.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/websocket/impl/teardown.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/bind_continuation.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/remap_post_to_defer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/is_invocable.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/coroutine.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/make_shared.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/make_shared.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/make_shared_object.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/detail/sp_forward.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/make_shared_array.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/default_allocator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/allocate_shared_array.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/allocator_access.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/pointer_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/alloc_construct.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/noinit_adaptor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/first_scalar.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/extent.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_bounded_array.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_unbounded_array.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/bind_handler.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/bind_handler.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/tuple.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/integer_sequence.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/algorithm.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/set.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_copy_if.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_remove_if.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_map_find.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/detail/mp_with_index.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/copy_cv.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/add_const.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/add_volatile.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/bind/std_placeholders.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/is_placeholder.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/buffered_read_stream.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/multi_buffer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/list.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/config_begin.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/intrusive_fwd.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/link_mode.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/workaround.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/assert.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/list_hook.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/list_node.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/pointer_rebind.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/circular_list_algorithms.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/algo_type.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/config_end.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/options.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/pack_options.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/generic_hook.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/pointer_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/detail/pointer_element.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/mpl.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/node_holder.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/get_value_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/hook_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/parent_from_member.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/detail/to_raw_pointer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/is_stateful_value_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/function_detector.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/default_header_holder.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/reverse_iterator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/detail/reverse_iterator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/detail/iterator_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/detail/std_ns_begin.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/detail/std_ns_end.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/uncast.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/list_iterator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/std_fwd.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/iiterator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/iterator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/array_initializer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/detail/placement_new.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/detail/force_ptr.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/exception_disposer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/equal_to_value.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/key_nodeptr_comp.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/ebo_functor_holder.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/tree_value_compare.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/simple_disposers.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/size_holder.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/algorithm.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/value_functors.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/multi_buffer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/buffered_read_stream.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/read_size.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/read_size.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/buffers_adaptor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/buffers_adaptor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/buffers_cat.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/type_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/aligned_storage.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/buffers_cat.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/variant.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/buffers_generator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/buffers_generator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/write.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/completion_condition.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_streambuf_fwd.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/write.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/base_from_completion_cond.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/consuming_buffers.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/dependent_type.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/compose.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/composed_work.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/buffers_range.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/buffers_range_adaptor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/buffers_suffix.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/buffers_suffix.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/add_cv.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/common_type.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/detail/mp_defer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/copy_cv_ref.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/copy_reference.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/floating_point_promotion.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/function_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_bit_and.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/detail/has_binary_operator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_bit_and_assign.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_bit_or.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_bit_or_assign.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_bit_xor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_bit_xor_assign.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_complement.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/detail/has_prefix_operator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_dereference.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_divides.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_divides_assign.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_equal_to.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_greater.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_greater_equal.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_left_shift.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_left_shift_assign.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_less.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_less_equal.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_logical_and.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_logical_not.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_logical_or.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_minus.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/remove_pointer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_minus_assign.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_modulus.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_modulus_assign.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_multiplies.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_multiplies_assign.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_negate.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_new_operator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_not_equal_to.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_nothrow_copy.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_copy_constructible.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_nothrow_destructor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_trivial_destructor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_plus.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_plus_assign.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_post_decrement.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/detail/has_postfix_operator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_post_increment.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_pre_decrement.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_pre_increment.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_right_shift.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_right_shift_assign.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_trivial_assign.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_trivial_constructor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_trivial_copy.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_trivial_move_constructor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_unary_minus.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_unary_plus.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/has_virtual_destructor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_complex.hpp \
+ /usr/include/c++/14.2.1/complex \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_compound.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_fundamental.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_copy_assignable.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_noncopyable.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_empty.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_final.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_float.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_list_constructible.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_member_object_pointer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_nothrow_swappable.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/detail/is_swappable_cxx_11.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_object.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_polymorphic.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_scoped_enum.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/negation.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_signed.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_stateless.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_swappable.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_trivially_copyable.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_union.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_unscoped_enum.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_unsigned.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/is_virtual_base_of.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/make_signed.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/make_unsigned.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/rank.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/remove_all_extents.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/remove_cv_ref.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/remove_volatile.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/integral_promotion.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/type_traits/promote.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/buffers_to_string.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detect_ssl.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/logic/tribool.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/logic/tribool_fwd.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/yield.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/coroutine.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/unyield.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/file.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/file_base.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/file_posix.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/file_posix.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/file_stdio.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/file_stdio.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/win32_unicode_path.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/file_win32.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/flat_buffer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/flat_buffer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/flat_static_buffer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/flat_static_buffer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/flat_static_buffer.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/flat_stream.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/flat_stream.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/flat_stream.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/static_buffer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/buffers_pair.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/static_buffer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/static_buffer.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/make_printable.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/ostream.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/ostream.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/saved_handler.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/saved_handler.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/saved_handler.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/span.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/span.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/data.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/static_string.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/static_string.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/static_string/static_string.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/static_string/config.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/container_hash/hash.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/container_hash/hash_fwd.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/container_hash/is_range.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/container_hash/is_contiguous_range.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/container_hash/is_unordered_range.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/container_hash/is_described_class.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/describe/bases.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/describe/modifiers.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/describe/detail/config.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/describe/detail/void_t.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/describe/members.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/describe/detail/cx_streq.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/mp11/bind.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/container_hash/detail/hash_integral.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/container_hash/detail/hash_mix.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/container_hash/detail/hash_tuple_like.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/container_hash/is_tuple_like.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/container_hash/detail/hash_range.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/container_hash/detail/mulx.hpp \
+ /usr/include/c++/14.2.1/typeindex \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/utility/string_view.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/io/ostream_put.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/io/detail/buffer_fill.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/io/detail/ostream_guard.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/utility/string_view_fwd.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/detail/string_view.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/core/detail/is_same.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/string.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/string_type.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/impl/string.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/string.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/tcp_stream.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/tcp.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_socket_acceptor.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_socket_iostream.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_socket_streambuf.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/basic_endpoint.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/address.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/address_v4.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/array.hpp \
@@ -890,17 +1193,6 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/bad_address_cast.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/impl/address.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/impl/address.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/address_v4_iterator.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/address_v4_range.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/address_v6_iterator.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/address_v6_range.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/network_v4.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/impl/network_v4.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/impl/network_v4.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/network_v6.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/impl/network_v6.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/impl/network_v6.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/basic_endpoint.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/detail/endpoint.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/detail/impl/endpoint.ipp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/impl/basic_endpoint.hpp \
@@ -917,81 +1209,104 @@ CMakeFiles/my_rest_api.dir/src/main.cpp.o: \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/resolve_query_op.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/resolver_service_base.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/resolver_service_base.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/host_name.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/impl/host_name.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/icmp.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/multicast.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/detail/socket_option.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/tcp.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/udp.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/unicast.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/ip/v6_only.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/is_read_buffered.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/is_write_buffered.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/local/basic_endpoint.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/local/detail/endpoint.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/local/detail/impl/endpoint.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/local/connect_pair.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/local/datagram_protocol.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/local/seq_packet_protocol.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/local/stream_protocol.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/packaged_task.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/future.hpp \
- /usr/include/c++/14.2.1/future \
- /usr/include/c++/14.2.1/condition_variable \
- /usr/include/c++/14.2.1/bits/atomic_futex.h \
- /usr/include/c++/14.2.1/bits/std_thread.h \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/placeholders.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/posix/basic_descriptor.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/posix/basic_stream_descriptor.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/posix/descriptor.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/posix/stream_descriptor.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/prepend.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/prepend.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/random_access_file.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/read.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/read.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/read_at.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/read_at.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/read_until.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/regex_fwd.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/read_until.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/readable_pipe.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/redirect_error.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/redirect_error.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/require_concept.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/traits/require_concept_member.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/traits/require_concept_free.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/traits/static_require_concept.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/serial_port.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/signal_set.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/static_thread_pool.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/thread_pool.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/thread_pool.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/blocking_executor_op.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/thread_pool.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/basic_dynamic_body.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/buffer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/clamp.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/error.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/error.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/error.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/message.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/fields.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/field.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/field.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/set.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/rbtree.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/minimal_less_equal_header.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/minimal_pair_header.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/set_hook.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/rbtree_node.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/rbtree_algorithms.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/bstree_algorithms.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/bstree_algorithms_base.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/math.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/pointer_plus_bits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/tree_node.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/bstree.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/bs_set_hook.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/tree_iterator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/empty_node_checker.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/detail/node_cloner_disposer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/intrusive/parent_from_member.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/move/adl_move_swap.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/fields.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/buffers_ref.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/temporary_buffer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/impl/temporary_buffer.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/verb.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/verb.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/rfc7230.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/detail/rfc7230.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/detail/rfc7230.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/detail/basic_parsed_list.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/rfc7230.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/rfc7230.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/status.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/status.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/chunk_encode.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/type_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/detail/type_traits.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/detail/chunk_encode.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/chunk_encode.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/varint.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/fields.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/message.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/basic_file_body.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/basic_parser.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/detail/basic_parser.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/char_buffer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/detail/basic_parser.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/basic_parser.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/make_unique.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/smart_ptr/make_unique.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/basic_parser.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/buffer_body.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/dynamic_body.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/empty_body.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/file_body.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/file_body_win32.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/message_generator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/serializer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/serializer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/message_generator.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/parser.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/parser.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/read.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/read.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/read.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/core/detail/impl/read.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/span_body.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/string_body.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/vector_body.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/write.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/beast/http/impl/write.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/strand.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/strand_executor_service.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/strand_executor_service.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/defer.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/initiate_defer.hpp \
  /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/strand_executor_service.ipp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/stream_file.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/streambuf.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/system_timer.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/this_coro.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/use_awaitable.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/use_future.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/use_future.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/version.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/windows/basic_object_handle.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/windows/basic_overlapped_handle.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/windows/basic_random_access_handle.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/windows/basic_stream_handle.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/windows/object_handle.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/windows/overlapped_handle.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/windows/overlapped_ptr.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/windows/random_access_handle.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/windows/stream_handle.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/writable_pipe.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/write_at.hpp \
- /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/impl/write_at.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/io_context_strand.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/strand_service.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/strand_service.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/strand_service.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/signal_set.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/basic_signal_set.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/signal_set_service.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/signal_set_base.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/signal_handler.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/signal_op.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/impl/signal_set_service.ipp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/static_mutex.hpp \
+ /home/pedromn35/cpp-libraries/boost_1_85_0/boost/asio/detail/posix_static_mutex.hpp \
  /usr/include/c++/14.2.1/iostream

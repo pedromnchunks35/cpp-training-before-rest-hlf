@@ -8,6 +8,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                "-DPR_DEBUG",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],

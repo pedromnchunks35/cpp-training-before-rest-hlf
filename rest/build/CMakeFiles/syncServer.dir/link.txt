@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/syncServer.dir/src/examples/syncServer.cpp.o -o syncServer
